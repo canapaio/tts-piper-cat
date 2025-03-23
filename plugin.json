@@ -1,0 +1,9 @@
+{
+    "name": "TTS Piper Cat",
+    "description": "Piper TTS Cat (no gtts)",
+    "author_name": "Canapaio",
+    "tags": "TTS,Piper,Speech,Voice",
+    "plugin_url": "https://github.com/canapaio/tts-piper-cat",
+    "thumb": "https://raw.githubusercontent.com/canapaio/tts-piper-Cat/main/tts-piper-cat.png",
+    "version": "0.0.2"
+}
