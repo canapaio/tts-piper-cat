@@ -3,7 +3,13 @@ Piper TTS Cat (no gtts)
 
 ![tts-piper-cat](./tts-piper-cat.png)
 
+if the Cheshire Cat AI lacks the piper dependency and you want to test the plugin without modifying the core, use the plugin:
+ 
+![https://github.com/canapaio/apt-cat]
 
+and from the prompt type
+
+:install: piper
 
 
 ispired plugin
