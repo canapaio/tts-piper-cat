@@ -5,6 +5,8 @@ Piper TTS Cat (no gtts)
 
 if the Cheshire Cat AI lacks the piper dependency and you want to test the plugin without modifying the core, use the plugin:
 
+[KaguraAI audio](./KaguraAI-TTS-piper-cat.wav)
+
 https://github.com/canapaio/apt-cat (apt-get install plugin)
 
 and from the prompt type
