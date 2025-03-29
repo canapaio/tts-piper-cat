@@ -24,7 +24,8 @@ def has_cyrillic(text):
 
 # Function to remove special characters from the input text while preserving basic punctuation and letters.
 def remove_special_characters(text):
-    pattern = r'[^a-zA-Z0-9\s.,!?\'"а-яА-ЯÀ-ÿÄäÖöÜüß]'
+    pattern = r'[^a-zA-Z0-9\s.,!?\'"а-яА-ЯÀ-ÿÄäÖöÜüßÀÈÉÌÒÙàèéìòù]'
+
     clean_text = re.sub(pattern, '', text)
     
     return clean_text
