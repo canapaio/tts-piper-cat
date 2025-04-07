@@ -75,8 +75,8 @@ def run_piper_process(command, output_filename, cleaned_text, cat):
         return
     
     # Prepare HTML5 audio player to be sent via WebSocket for playback
-        piper_audio_player = f"<audio controls autoplay><source src='{output_filename}' type='audio/wav'>Your browser does not support the audio tag.</audio><a href='{output_filename}' target='_blank'>Download Audio</a>"
-        cat.send_ws_message(content=piper_audio_player, msg_type='chat')
+    piper_audio_player = f"<audio controls autoplay><source src='{output_filename}' type='audio/wav'>Your browser does not support the audio tag.</audio><a href='{output_filename}' target='_blank'>Download Audio</a>"
+    cat.send_ws_message(content=piper_audio_player, msg_type='chat')
 
 
 # Function to build the Piper TTS command based on user-selected voice and input text.
